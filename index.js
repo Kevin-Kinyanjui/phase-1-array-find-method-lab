@@ -7,7 +7,7 @@ const record = [
 
  function superbowlWin(array) {
        if (array.result === "W"){
-            return array
+            return array["year"][0]
        } else {
           console.log(undefined)
        }
